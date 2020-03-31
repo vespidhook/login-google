@@ -1,0 +1,23 @@
+{
+    "name": "vespidhook/login-google",
+    "description": "Login social via Google com Oauth 2 Client",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno Alves",
+            "email": "vespidhook@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "league/oauth2-google": "3.0.*"
+    }
+}
